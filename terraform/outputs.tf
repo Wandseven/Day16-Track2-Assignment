@@ -12,5 +12,5 @@ output "endpoint_url" {
 }
 
 output "gpu_private_ip" {
-  value = aws_instance.gpu_node.private_ip
+  value = aws_instance.cpu_node.private_ip
 }
